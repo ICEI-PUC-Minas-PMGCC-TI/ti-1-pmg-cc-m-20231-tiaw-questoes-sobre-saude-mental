@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="imagens/imagemlogo.png" alt="Logo">
+        </div>
+        <nav>
+            <ul class="menu">
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Perfil</a></li>
+                <li><a href="#">Exercícios Recreativos</a></li>
+                <li><a href="#">Exercícios de Meditação</a></li>
+                <li><a href="#">Atividades Físicas</a></li>
+                <li><a href="#">Sons Relaxantes</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    </div>
+    <h1 class="titulo-principal">MEDITAÇÃO</h1>
+
+    <div class="conteudo-imagem">
+        <div class="imagens">
+
+            <img src="imagens/mindfulness.jpeg" alt="Mindfulness">
+            <div class="conteudo" id="conteudo-1"></div>
+        </div>
+        <div class="imagens">
+            <img src="imagens/meditação ao ar livre.jpg" alt="Natureza">
+            <div class="conteudo" id="conteudo-2"></div>
+        </div>
+        <div class="imagens">
+            <img src="imagens/zen.jpg" alt="Poses">
+            <div class="conteudo" id="conteudo-3"></div>
+        </div>
+
+    </div>
+
+    <div class="conteudo" id="tela"></div>
+    <div class="conteudo-imagem">
+
+        <script src="javascript2.js"></script>
+      <style>
+        header {
+            background-color: #9C6853;
+            color: #fff;
+            padding: 5px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            z-index: 999;
+        }
+
+        .logo img {
+            width: 70px;
+            height: auto;
+        }
+
+        .menu {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            margin-left: 20px;
+        }
+
+        .menu li {
+            margin-right: 40px;
+        }
+
+        .menu li a {
+            color: #FBDFCA;
+            text-decoration: none;
+        }
+
+        .btn-confira {
+      background-color: #586085; 
+      color: white;
+      padding: 10px 20px;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+      border-radius: 4px;
+      transition: background-color 0.3s ease;
+      
+    }
+    .btn-confira:hover {
+    background-color: #8a6eb4;
+}
+        .titulo-principal {
+            text-align: center;
+            font-size: 36px;
+            font-weight: bold;
+            margin-top: 100px;
+            color: #659893;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        #tela {
+
+            justify-content: center;
+            align-items: center;
+            height: 100px;
+        }
+
+        .bloco {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-right: 20px;
+        }
+
+        body {
+            background-color: #FBDFCA;
+        }
+
+        .conteudo-imagem {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 50px;
+            justify-self: center;
+            align-items: center;
+        }
+
+       /* .imagens {
+            flex: 1;
+            margin-right: 0px;
+            margin-left: 20px;
+            padding-left: 0;
+        } */
+
+        .imagens:nth-child(2),
+        .imagens:nth-child(3) {
+            margin-left: 0px;
+        }
+
+        img {
+            width: 350px;
+            height: 200px;
+            border-radius: 10px;
+        }
+
+        .titulo-conteudo {
+            display: flex;
+            justify-content: center;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #659893;
+            font-size: 30px;
+            margin-right: 10px;
+            
+
+        }
+
+        .link-conteudo {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 24px;
+
+        }
+
+        @media (max-width: 768px) {
+
+            .conteudo-imagem {
+                flex-wrap: wrap;
+                align-items: center;
+                justify-self: center;
+                justify-content: center;
+            }
+
+            .imagens {
+                flex-basis: 100%;
+                max-width: 100%;
+                margin-left: 0px;
+            }
+
+            .imagens img {
+                width: 100%;
+                height: auto;
+            }
+
+            .bloco {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-bottom: 20px;
+            }
+
+            .titulo-conteudo {
+                font-size: 24px;
+                margin-top: 20px;
+            }
+
+            .link-conteudo {
+                font-size: 18px;
+
+
+            }
+        }
+    </style>
+
+</body>
+
+</html>
