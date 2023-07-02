@@ -1,0 +1,16 @@
+.conteiner1{
+    display: grid;
+    grid-template-columns: repeat(25,1fr);
+    grid-template-rows: auto;
+    justify-self: center;
+    padding-top: 50px;
+}
+.conteiner2{
+    display: grid;
+    grid-column: 1/25;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    justify-self: center;
+    column-gap: 50px;
+    row-gap: 50px;
+}
