@@ -1,0 +1,38 @@
+body{
+    background-color: #FBDFCA;
+    color: #EE947A;
+}
+
+button{
+    color: white ;
+    background-color: #4D3945;
+}
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.form-control {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"] {
+    width: 100%;
+    padding: 5px;
+}
+
+button {
+    padding: 10px;
+}
