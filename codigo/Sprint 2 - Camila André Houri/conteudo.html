@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conteúdo</title>
+
+    <style>
+        body {
+            background-color: #FBDFCA;
+
+        }
+
+        #header-id {
+            background-color: #9C6853;
+            color: #fff;
+            padding: 5px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            z-index: 999;
+        }
+
+        .logo img {
+            width: 70px;
+            height: auto;
+        }
+
+        .menu {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            margin-left: 20px;
+        }
+
+        .menu li {
+            margin-right: 40px;
+        }
+
+        .menu li a {
+            color: #FBDFCA;
+            text-decoration: none;
+        }
+
+        #titulo-principal {
+            text-align: center;
+            font-size: 28px;
+            font-weight: bold;
+            margin-top: 100px;
+            color: #659893;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        @media screen and (max-width: 768px) {
+
+            #descricao-principal p {
+                font-size: 18px;
+            }
+
+            #descricao-principal ol {
+                font-size: 20px;
+            }
+
+            #conteudo-id h2 {
+                font-size: 26px;
+
+            }
+
+            #conteudo-id p {
+                font-size: 22px;
+            }
+
+            #conteudo-id ol {
+                font-size: 20px;
+            }
+        }
+
+        #conteudo-id h2 {
+            color: #4D3945;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="conteudo"></div>
+
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const id = urlParams.get('id');
+
+        const conteudoDiv = document.getElementById('conteudo');
+        if (id === '1') {
+            conteudoDiv.innerHTML = `
+                
+        <header id="header-id">
+            <div class="logo">
+            <img src="imagens/imagemlogo.png" alt="Logo">
+        </div>
+            <nav>
+                <ul class="menu">
+                    <li><a href="#">Início</a></li>
+                    <li><a href="#">Perfil</a></li>
+                </ul>
+            </nav>
+        </header>
+        <h1 id="titulo-principal">Exercícios de respiração para iniciantes - guia passo a passo</h1>
+        <div id=descricao-principal>
+            <p>"A prática regular de exercícios de respiração traz muitas vantagens para seu corpo, como por exemplo:"</p>
+            <ol>
+                <li>Redução do estresse e da ansiedade.</li>
+                <li>Melhoria da saúde respiratória.</li>
+                <li>Aumento da energia e vitalidade.</li>
+                <li>Melhoria da concentração e clareza mental.</li>
+                <li>Promoção do relaxamento e sono de qualidade.</li>
+                <li>Melhoria do bem-estar emocional.</li>
+            </ol>
+            <p>Os exercícios de respiração são uma ferramenta valiosa para cuidar da saúde física, mental e emocional, proporcionando um maior equilíbrio e bem-estar geral. A seguir, apresentamos uma série de exercícios de respiração fáceis para iniciantes.</p>
+                <div id="conteudo-id">   
+                <h2>Exercício 1: Respiração Torácica</h2>
+                <p>A respiração profunda é uma técnica simples que ajuda a relaxar o corpo e a mente. Siga estas instruções:</p>
+                <ol>
+                    <li>Sente-se confortavelmente em uma posição relaxada.</li>
+                    <li>Feche os olhos e coloque uma mão no peito e a outra no abdômen.</li>
+                    <li>Inale profundamente pelo nariz, sentindo o abdômen se expandir enquanto a mão sobe.</li>
+                    <li>Segure a respiração por alguns segundos.</li>
+                    <li>Expire lentamente pela boca, sentindo o abdômen se contrair enquanto a mão desce.</li>
+                    <li>Repita o processo várias vezes, concentrando-se na sua respiração.</li>
+                </ol>
+
+                <h2>Exercício 2: Respiração Quadrada</h2>
+                <p>A respiração quadrada é uma técnica que pode ajudar a acalmar a mente e aliviar o estresse. Siga estas instruções:</p>
+                <ol>
+                    <li>Sente-se em uma posição confortável e feche os olhos.</li>
+                    <li>Inale lentamente contando até 4.</li>
+                    <li>Mantenha o ar nos pulmões por 4 segundos.</li>
+                    <li>Expire lentamente contando até 4.</li>
+                    <li>Mantenha os pulmões vazios por 4 segundos.</li>
+                    <li>Repita o processo várias vezes, mantendo um ritmo constante.</li>
+                </ol>
+                <h2>Exercício 3: Respiração Diafragmática</h2>
+                <p>A respiração diafragmática é uma técnica que envolve direcionar a respiração para o diafragma, permitindo uma respiração mais profunda e relaxante. Siga estas instruções:</p>
+                <ol>
+                    <li>Sente-se ou deite-se em uma posição confortável, mantendo a coluna ereta.</li>
+                    <li>Coloque uma mão no abdômen, logo acima do umbigo.</li>
+                    <li>Inspire lenta e profundamente pelo nariz, sentindo o abdômen se expandir como se estivesse enchendo de ar.</li>
+                    <li>Expire suavemente pela boca, sentindo o abdômen se contrair e voltar à posição inicial.</li>
+                    <li>Concentre-se em direcionar a respiração para o diafragma, permitindo que ele se mova para baixo durante a inspiração e para cima durante a expiração.</li>
+                </ol>
+                <h2>Exercício 4: Respiração Alternada das Narinas</h2>
+                <p>A respiração alternada das narinas é uma técnica de respiração que ajuda a equilibrar a energia e acalmar a mente. Siga estas instruções:</p>
+                <ol>
+                    <li>Sente-se ou deite-se em uma posição confortável, mantendo a coluna ereta.</li>
+                    <li>Coloque o polegar direito sobre a narina direita e o dedo anelar sobre a narina esquerda.</li>
+                    <li>Feche suavemente a narina direita com o polegar e inspire pela narina esquerda.</li>
+                    <li>Em seguida, feche a narina esquerda com o dedo anelar e expire pela narina direita.</li>
+                    <li>Continue alternando entre as narinas, inspirando por uma e expirando pela outra.</li>
+                    <li>Concentre-se no fluxo de ar e na sensação de equilíbrio enquanto realiza essa técnica.</li>
+                </ol>
+                <h2>Exercício 5: Respiração Contagem Crescente</h2>
+                <p>A respiração contagem crescente é uma técnica de respiração simples que envolve contar mentalmente durante a respiração, ajudando a prolongar a exalação e acalmar a mente. Siga estas instruções:</p>
+                <ol>
+                    <li>Sente-se ou deite-se em uma posição confortável, mantendo a coluna ereta.</li>
+                    <li>Feche os olhos e comece a respirar naturalmente pelo nariz.</li>
+                    <li>Ao inspirar, conte mentalmente "um".</li>
+                    <li>Ao expirar, conte mentalmente "dois".</li>
+                    <li>Novamente, inspire e conte mentalmente "três".</li>
+                    <li>Ao expirar, conte mentalmente "quatro".</li>
+                    <li>Continue aumentando a contagem a cada inspiração e expiração, indo até cinco, seis, sete e assim por diante.</li>
+                    <li>Se chegar a um ponto em que se sinta desconfortável ou a contagem fique difícil de acompanhar, retorne à contagem de "um" e comece novamente.</li>
+                    <li>Continue praticando esse exercício por alguns minutos, permitindo que a respiração se torne mais lenta e profunda à medida que a contagem aumenta.</li>
+                </ol>
+                </div>
+            `;
+        } else if (id === '2') {
+            conteudoDiv.innerHTML = `
+            <header id="header-id">
+                <div class="logo">
+            <img src="imagens/imagemlogo.png" alt="Logo">
+        </div>
+            <nav>
+                <ul class="menu">
+                    <li><a href="#">Início</a></li>
+                    <li><a href="#">Perfil</a></li>
+                </ul>
+            </nav>
+        </header>
+        <h1 id="titulo-principal">Exercícios de alongamento para iniciantes - guia passo a passo</h1>
+        <div id=descricao-principal>
+            <p>"Fazer exercícios de alongamento regularmente pode oferecer várias vantagens para o corpo e a mente. Aqui está uma descrição rápida das principais vantagens do alongamento:"</p>
+            <ol>
+                <li>Melhora a flexibilidade muscular e articular.</li>
+                <li>Alívio do estresse e relaxamento muscular.</li>
+                <li>Melhora da circulação sanguínea.</li>
+                <li>Melhora da postura e alívio de dores musculares.</li>
+                <li>Melhora do desempenho do corpo em atividades físicas.</li>
+                <li>Prevenção de lesões musculares e articulares.</li>
+            </ol>
+            <p>Praticar o alongamento regularmente, respeitando seus limites e realizando os exercícios corretamente, pode trazer inúmeros benefícios para o seu corpo e a sua mente. Lembre-se de aquecer antes de alongar e realizar os exercícios de forma suave e controlada. Se tiver alguma preocupação específica, é sempre recomendado consultar um profissional de saúde ou um fisioterapeuta para obter orientações personalizadas.A seguir, apresentamos uma série de exercícios de alognamento fáceis para iniciantes.</p>
+                <div id="conteudo-id">   
+                <h2>Exercício 1: Alongamento de Ombros Sentados</h2>
+                <p>Esses alongamentos podem ajudar a aliviar a tensão e rigidez nos ombros, melhorar a amplitude de movimento e promover o relaxamento geral. Siga estas instruções:</p>
+                <ol>
+                    <li>Sente-se em uma cadeira confortável, mantendo as costas retas e os pés apoiados no chão.</li>
+                    <li>Estenda os braços para a frente, paralelos ao chão, com as palmas das mãos viradas uma para a outra.</li>
+                    <li>Lentamente, comece a afastar os braços para os lados, mantendo-os na altura dos ombros. Sinta o alongamento nos ombros e no peito.</li>
+                    <li>Continue afastando os braços até sentir um alongamento suave e confortável. Mantenha a posição por 10-15 segundos.</li>
+                    <li>Em seguida, traga os braços de volta para a posição inicial à frente do corpo. Agora, cruze os braços na frente do peito, de modo que as mãos descansem nos ombros opostos.</li>
+                    <li>Suavemente, pressione os cotovelos para a frente, alongando os ombros. Sinta o alongamento nos músculos das costas e nos ombros.</li>
+                    <li>Mantenha essa posição por 10-15 segundos, respirando profundamente.</li>
+                    <li>Solte os braços e faça alguns movimentos circulares com os ombros, para trás e para a frente, relaxando os músculos.</li>
+                </ol>
+
+                <h2>Exercício 2: Alongamento de Pescoço</h2>
+                <p>Os alongamentos regulares de pescoço podem ajudar a aliviar a tensão e o desconforto, melhorar a flexibilidade e promover uma postura saudável. Siga estas instruções:</p>
+                <ol>
+                    <li>Sente-se em uma posição confortável, com a coluna ereta e os ombros relaxados.</li>
+                    <li>Incline suavemente a cabeça para a direita, levando a orelha em direção ao ombro direito.</li>
+                    <li>Mantenha essa posição por 15-30 segundos, sentindo o alongamento do lado esquerdo do pescoço.</li>
+                    <li>Retorne a cabeça à posição neutra.</li>
+                    <li>Repita o mesmo alongamento, inclinando a cabeça para o lado esquerdo, levando a orelha em direção ao ombro esquerdo.</li>
+                    <li>Mantenha essa posição por 15-30 segundos, sentindo o alongamento do lado direito do pescoço.</li>
+                    <li>Retorne a cabeça à posição neutra.</li>
+                    <li>Faça o alongamento de inclinação frontal, inclinando a cabeça para frente, levando o queixo em direção ao peito.</li>
+                    <li>Sinta o alongamento na parte de trás do pescoço e mantenha por 15-30 segundos.</li>
+                    <li>Retorne a cabeça à posição neutra.</li>
+                    <li>Faça o alongamento de rotação, girando lentamente a cabeça para a direita, olhando por cima do ombro direito.</li>
+                    <li>Sinta o alongamento na parte lateral e posterior do pescoço e mantenha por 15-30 segundos.</li>
+                    <li>Retorne a cabeça à posição neutra.</li>
+                    <li>Repita o mesmo alongamento de rotação, girando a cabeça para a esquerda, olhando por cima do ombro esquerdo.</li>
+                    <li>Mantenha por 15-30 segundos.</li>
+                    <li>Retorne a cabeça à posição neutra.</li>
+                    <li>Respire profundamente e relaxe os músculos do pescoço e dos ombros durante cada alongamento.</li>
+                    <li>Evite forçar além do ponto de conforto e faça os movimentos de forma suave e controlada.</li>
+                    <li>Se sentir desconforto ou dor intensa, pare imediatamente e consulte um profissional de saúde.</li>
+
+                </ol>
+                <h2>Exercício 3: Alongamento de Coluna</h2>
+                <p>Este alongamento é projetado para melhorar a flexibilidade e a mobilidade da coluna vertebral, aliviando a tensão e promovendo uma postura saudável. Siga estas instruções:</p>
+                <ol>
+                    <li>Fique em pé com os pés afastados na largura dos quadris.</li>
+                    <li>Mantenha os pés firmemente plantados no chão e as pernas levemente flexionadas.</li>
+                    <li>Mantenha os braços relaxados ao lado do corpo.</li>
+                    <li>Inicie o alongamento inclinando lentamente o seu corpo para frente a partir da cintura, deixando os braços soltos e permitindo que a coluna se estenda.</li>
+                    <li>À medida que se inclina para frente, vá descendo suavemente o tronco em direção às pernas, tentando alcançar o chão com as mãos ou os dedos.</li>
+                    <li>Se sentir tensão ou desconforto, não force além do seu limite. Pare no ponto em que sinta um alongamento suave na parte posterior da coluna.</li>
+                    <li>Mantenha a posição por 15-30 segundos, respirando profundamente e relaxando os músculos.</li>
+                    <li>Para retornar à posição inicial, contraia os músculos abdominais e, lentamente, comece a levantar o corpo, vértebra por vértebra, até ficar ereto novamente.</li>
+                </ol>
+                <p>Lembre-se de realizar o alongamento de coluna de forma suave e sem forçar. Se você tiver alguma condição médica ou histórico de lesões nas costas, é importante consultar um profissional de saúde antes de realizar qualquer tipo de exercício ou alongamento.</p>
+                <h2>Exercício 4: Alongamento de Pernas</h2>
+                <p>O alongamento de pernas melhora a flexibilidade, alivia a tensão muscular, estimula a circulação sanguínea, contribui para uma melhor postura e equilíbrio, além de ajudar na prevenção de lesões. Siga estas instruções:</p>
+                <ol>
+                    <li>Sente-se no chão ou em um tapete confortável, com as pernas estendidas à sua frente.</li>
+                    <li>Mantenha as pernas juntas e os pés flexionados, apontando os dedos para cima.</li>
+                    <li>Inspire profundamente e, ao expirar, comece a inclinar o tronco para a frente a partir dos quadris, mantendo as costas retas.</li>
+                    <li>Continue a se inclinar gradualmente, estendendo os braços na direção dos pés. Se possível, segure os pés, os tornozelos ou as panturrilhas. Se não conseguir alcançar, pode segurar onde for confortável, como nas pernas ou nos joelhos.</li>
+                    <li>Mantenha a posição alongada por 20 a 30 segundos, respirando profundamente e relaxando os músculos.</li>
+                    <li>Conforme você mantém o alongamento, tente relaxar ainda mais e permita que seu corpo se incline um pouco mais para frente, sem forçar demais.</li>
+                    <li>Ao finalizar o tempo desejado, lentamente retorne à posição inicial, levantando-se gradualmente.</li>
+                    <li>Repita o alongamento algumas vezes, se desejar.</li>
+                </ol>
+                <h2>Exercício 5: Alongamento do Quadril em Pé</h2>
+                <p>O alongamento do quadril em pé melhora a flexibilidade, alivia a tensão muscular, promove uma melhor postura e reduz o risco de lesões. Siga estas instruções:</p>
+                <ol>
+                    <li>Comece em pé, com os pés afastados na largura dos quadris. Mantenha uma postura ereta, com os ombros relaxados e os braços ao lado do corpo.</li>
+                    <li>Dê um passo à frente com a perna direita, mantendo o pé direito apontando para a frente. Certifique-se de que a perna esquerda esteja reta e levemente estendida.</li>
+                    <li>Mantendo a perna esquerda estendida, comece a inclinar o corpo para a frente, dobrando ligeiramente o joelho direito. Conforme você se inclina, você deve sentir um alongamento suave no quadril esquerdo.</li>
+                    <li>Se quiser intensificar o alongamento, você pode estender os braços para a frente e apoiar as mãos na coxa direita. Isso ajudará a estabilizar o corpo e a aprofundar o alongamento.</li>
+                    <li>Mantenha a posição de alongamento por cerca de 20 a 30 segundos, respirando profundamente e relaxando o corpo. Concentre-se em manter a parte superior do corpo ereta e evitar inclinar-se para a frente ou para os lados.</li>
+                    <li>Após o tempo desejado, lentamente endireite a perna direita e retorne à posição inicial. Repita o alongamento do lado oposto, dando um passo à frente com a perna esquerda.</li>
+                </ol>
+                <p>Lembre-se de que o alongamento deve ser feito de forma adequada e segura, respeitando seus limites e ouvindo o seu corpo.</p>
+                </div>
+            `;
+        } else if (id === '3') {
+            conteudoDiv.innerHTML = `
+            <header id="header-id">
+            <div class="logo">
+            <img src="imagens/imagemlogo.png" alt="Logo">
+        </div>
+            <nav>
+                <ul class="menu">
+                    <li><a href="#">Início</a></li>
+                    <li><a href="#">Perfil</a></li>
+                </ul>
+            </nav>
+        </header>
+        <h1 id="titulo-principal">Exercícios de posturas básicas de yoga para iniciantes - guia passo a passo</h1>
+        <div id=descricao-principal>
+            <p>"As posturas básicas, ou asanas, da yoga trazem uma série de benefícios para o corpo, tais como:"</p>
+            <ol>
+                <li>Ajudam a alongar e fortalecer os músculos, tendões e ligamentos, aumentando a flexibilidade geral do corpo.</li>
+                <li>Fortalecimento do corpo como um todo.</li>
+                <li>Ajuda a fortalecer os músculos profundos do núcleo e aprimorar o equilíbrio corporal.</li>
+                <li>Ajudam a acalmar a mente e relaxar o corpo, reduzindo os níveis de estresse e ansiedade.</li>
+                <li>Estimulação do sistema circulatório.</li>
+                <li>Melhora da consciência corporal.</li>
+                <li>Estímulo do sistema linfático.</li>
+                <li>Ajudam a aumentar os níveis de energia e vitalidade, proporcionando uma sensação geral de bem-estar.</li>
+            </ol>
+            <p>É importante praticar as posturas básicas com orientação adequada e respeitar os limites do seu corpo. Se você tiver alguma condição médica pré-existente, é recomendável consultar um profissional de saúde antes de iniciar qualquer programa de exercícios ou prática de yoga.</p>
+                <div id="conteudo-id">   
+                <h2>Exercício 1: Postura Cat-Cow (Gato-Vaca)</h2>
+                <p>A postura Cat-Cow é importante porque ajuda a melhorar a flexibilidade e mobilidade da coluna vertebral, fortalece os músculos abdominais e das costas, alivia a tensão nas costas, promove uma postura saudável e estimula a circulação sanguínea na região. Siga estas instruções:</p>
+                <ol>
+                    <li>Posicione-se em quatro apoios, com as mãos alinhadas com os ombros e os joelhos alinhados com os quadris.</li>
+                    <li>Para a postura do gato, expire e arredonde as costas em direção ao teto, soltando a cabeça em direção ao chão.</li>
+                    <li>Mantenha essa posição por alguns segundos, sentindo o alongamento suave na parte superior das costas.</li>
+                    <li>Para a postura da vaca, inspire e arqueie a coluna, levantando o peito e o olhar para cima.</li>
+                    <li>Mantenha essa posição por alguns segundos, sentindo o alongamento suave na região abdominal e nas costas baixas.</li>
+                    <li>Repita suavemente a transição entre o gato e a vaca por várias respirações, sincronizando o movimento com a respiração.</li>
+                </ol>
+                
+                <h2>Exercício 2: Tadasana (Postura da Montanha)</h2>
+                <p>Praticar regularmente a postura da montanha pode trazer benefícios para a postura, equilíbrio, estabilidade, consciência corporal, foco mental, alívio do estresse, fortalecimento muscular e energia geral do corpo. Siga estas instruções:</p>
+                <ol>
+                    <li>Fique em pé com os pés juntos, mantendo os calcanhares e os dedos dos pés em contato.</li>
+                    <li>Distribua igualmente o peso do corpo pelos pés, sentindo uma base sólida e estável.</li>
+                    <li>Mantenha os braços ao lado do corpo, com as palmas das mãos voltadas para a frente.</li>
+                    <li>Alongue a coluna, mantendo o queixo paralelo ao chão e relaxando os ombros.</li>
+                    <li>Mantenha o olhar fixo em um ponto à sua frente, mantendo-se concentrado e equilibrado.</li>
+                    <li>Respire profundamente e mantenha a postura por alguns minutos, mantendo-se firme e relaxado.</li>
+                </ol>
+                <h2>Exercício 3: Balasana (Postura da Criança)</h2>
+                <p>Praticar regularmente a postura da criança pode ajudar a relaxar o corpo, acalmar a mente e promover uma sensação geral de bem-estar. É uma postura de descanso e recuperação que pode ser incorporada em qualquer prática de ioga ou como uma pausa tranquila no dia a dia. Siga estas instruções:</p>
+                <ol>
+                    <li>Comece de joelhos no chão, com os dedos dos pés se tocando.</li>
+                    <li>Sente-se nos calcanhares e, lentamente, dobre o tronco para a frente, estendendo os braços para a frente.</li>
+                    <li>Deslize as mãos para a frente o máximo que puder, mantendo os braços estendidos e as palmas das mãos apoiadas no chão.</li>
+                    <li>Deixe o peito cair em direção às coxas e o rosto repousar no chão (ou em um bloco ou almofada, se necessário) ou virado para o lado.</li>
+                    <li>Mantenha os quadris apoiados nos calcanhares e relaxe completamente nessa posição.</li>
+                    <li>Respire profundamente e mantenha a postura por alguns minutos, permitindo que o corpo relaxe e se solte.</li>
+                </ol>
+                <h2>Exercício 4: Adho Mukha Svanasana (Postura do Cachorro Olhando para Baixo)</h2>
+                <p>Praticar regularmente a postura do cachorro olhando para baixo proporciona alongamento da coluna vertebral, fortalecimento, relaxamento e melhora da circulação sanguínea, promovendo equilíbrio físico, mental e emocional. Siga estas instruções:</p>
+                <ol>
+                    <li>Comece de quatro, com as mãos alinhadas com os ombros e os joelhos alinhados com os quadris.</li>
+                    <li>Espalhe os dedos das mãos e pressione firmemente as palmas das mãos no chão.</li>
+                    <li>Estenda os braços, mantendo os cotovelos ligeiramente dobrados, e leve o quadril para trás, levantando os joelhos do chão.</li>
+                    <li>Estique as pernas gradualmente, trazendo os calcanhares em direção ao chão. Se não alcançar o chão com os calcanhares, mantenha os joelhos ligeiramente flexionados.</li>
+                    <li>Mantenha a cabeça entre os braços, olhando em direção ao umbigo ou em direção aos pés.</li>
+                    <li>Mantenha os ombros relaxados, afastando-os das orelhas.</li>
+                    <li>Concentre-se em alongar a coluna, estendendo o corpo em direção ao chão e mantendo os quadris elevados.</li>
+                    <li>Respire profundamente e permaneça na postura por 5 a 10 respirações completas.</li>
+                    <li>Para sair da postura, dobre os joelhos e abaixe-os no chão, voltando à posição de quatro apoios.</li>
+                </ol>
+                <p></p>É importante adaptar a postura às suas capacidades individuais e evitar qualquer desconforto ou dor durante a prática. Se tiver alguma lesão ou condição médica, consulte um profissional de saúde antes de realizar essa postura.
+                <h2>Exercício 5: Vrksasana (Postura da Árvore)</h2>
+                <p>Praticar regularmente a postura da árvore promove equilíbrio físico e mental, fortalece as pernas, alonga a coluna, aumenta a concentração, proporciona uma sensação de estabilidade emocional, desenvolve a consciência corporal e cultiva a paciência e perseverança. Siga estas instruções:</p>
+                <ol>
+                    <li>Comece em pé, com os pés juntos e os braços ao lado do corpo.</li>
+                    <li>Levante o pé direito e coloque a sola do pé na parte interna da coxa esquerda ou na panturrilha esquerda (evite colocar o pé diretamente no joelho).</li>
+                    <li>Encontre um ponto de foco à sua frente para ajudar no equilíbrio.</li>
+                    <li>Mantenha os joelhos apontando para a frente e o corpo ereto.</li>
+                    <li>Quando se sentir estável, eleve os braços acima da cabeça, juntando as palmas das mãos ou mantendo-as afastadas.</li>
+                    <li>Respire profundamente e mantenha a postura por 5 a 10 respirações completas.</li>
+                    <li>Para sair da postura, abaixe os braços lentamente e, suavemente, retorne o pé direito ao chão.</li>
+                    <li>Repita do outro lado, trocando a perna de apoio.</li>
+              </ol>
+              <p>Lembre-se de adaptar a postura conforme suas necessidades e respeitar seus limites. Caso tenha problemas de equilíbrio, lesões ou condições médicas, é importante buscar a orientação de um instrutor de ioga qualificado ou profissional de saúde antes de praticar a postura da árvore.</p>
+                </div>
+            `;
+        } else {
+            conteudoDiv.innerHTML = '<p>Conteúdo não encontrado.</p>';
+        }
+    </script>
+</body>
+
+</html>
