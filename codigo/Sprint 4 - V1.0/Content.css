@@ -1,0 +1,136 @@
+
+/*Página Inicial*/
+body{
+    background-color: #FBDFCA !important;
+}
+p {
+    color: #D65C5B;
+    
+}
+
+h5{
+    color: #9C6853;
+    font-weight: bolder;
+}
+
+.navbar{
+    background-color: #9C6853;
+    padding: 0px;
+}
+
+.nav-item{
+    color:#FBDFCA;
+}
+
+.nav-link{
+    color:#FBDFCA;
+}
+
+.nav-link :visited{
+    color:#FBDFCA;
+}
+
+button{
+    background-color:#FBDFCA;
+    border: none;
+}
+
+nav{
+    background-color: #9C6853;
+    color: #E2A296;
+    padding: 0px !important;
+  }
+  
+  header{
+    background-color: #9C6853;
+    color: #E2A296;
+  }
+
+  .bg-body-tertiary{
+    background-color: #9C6853;
+    color: #E2A296;
+  }
+
+  .container-fluid{
+    background-color: #9C6853;
+    color: #E2A296;
+  }
+
+.btn{
+    background-color: #4D3945;
+    color: #EE947A;
+}
+
+
+
+.conteiner{
+    display: grid;
+    grid-template-columns: repeat(24, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+}
+
+.conteiner-2{
+    grid-column: 1/25;
+    justify-self: center;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    column-gap: 25px;
+}
+
+.card-body{
+    background-color: #E2A296;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+/*Página de conteúdo*/
+.conteiner-4{
+    display: grid;
+    grid-template-columns: repeat(24,1fr);
+    grid-template-rows: repeat(1,1fr);
+    
+}
+
+
+.conteiner-3{
+    padding-top: 40px;
+    grid-column: 1/25;
+    justify-self: center;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    column-gap: 25px;
+    row-gap: 25px;
+}
+
+/*Página de Conteúdo Individual*/
+    .conteiner-5{
+        display: grid;
+        grid-template-columns: repeat(25,1fr);
+        grid-template-rows: auto;
+        
+    }
+    .conteiner-6{
+        justify-self: center;
+        grid-column: 1/25;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+    }
+
+    aside{
+        grid-row: 3;
+        grid-column: 3;
+        color:#9C6853;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    main{
+        grid-row: 3;
+        grid-column: 1;
+    }
+    main img{
+        border-radius: 10px;
+        border:solid 3px #9C6853;
+        width: 500px;
+        height: 500px;
+    }
