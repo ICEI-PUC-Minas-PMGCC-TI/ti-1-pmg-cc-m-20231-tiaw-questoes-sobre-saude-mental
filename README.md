@@ -1,5 +1,5 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=10797533&assignment_repo_type=AssignmentRepo)
-# Nome do projeto
+# Affective Serenity
 O objetivo geral deste trabalho é a criação de um aplicativo de ajuda imediata para jovens que sofrem com algum transtorno mental, que possua diversas ferramentas de uso rápido e fácil que possam proporcionar ao nosso usuário conforto, segurança e acolhimento em seus momentos de crises e angústia.
 
 ## Alunos integrantes da equipe
@@ -18,11 +18,13 @@ O objetivo geral deste trabalho é a criação de um aplicativo de ajuda imediat
 
 ## Instruções de utilização
 
-O projeto, em sua versão final até o momento, conta com 5 utilidades embutidas e um login. As utilidades incluem uma aba de música, uma de atividade recreativa, uma de atividade física, uma com exercícios de meditação e outra para cadastro de conteúdo (utilizada apenas por administradores do aplicativo). O login não é obrigatório para utilizar o aplicativo, porém gostaríamos de destacar que ao efetuar o login como administrador, será possível adicionar novos conteúdos ao site.
+O projeto, em sua versão final até o momento, conta com 5 utilidades embutidas e um login. As utilidades incluem uma aba de Sons Relaxantes, uma de atividade recreativa, uma de atividade física, uma com exercícios de meditação e outra para cadastro de conteúdo (utilizada apenas por administradores do aplicativo). O login não é obrigatório para utilizar o aplicativo, porém gostaríamos de destacar que ao efetuar o login como administrador, será possível adicionar novos conteúdos ao site.
+
+Site aonde se encontra a versão final : https://sprint-4--affective-serenity.repl.co/
 
 Vamos detalhar cada aba separadamente:
 
-A aba de música contém três músicas nesta versão. Devido às restrições do local storage, tivemos dificuldades para adicionar músicas da internet. Para contornar essa limitação, decidimos disponibilizar apenas as três músicas pré-carregadas.
+A aba de Sons Relaxantes contém três músicas nesta versão. Devido às restrições do local storage, tivemos dificuldades para adicionar músicas da internet. Para contornar essa limitação, decidimos disponibilizar apenas as três músicas pré-carregadas.
 
 A aba de atividades recreativas oferece atividades simples e criativas para melhorar a inteligência afetiva dos usuários. Ao abrir essa aba, encontramos três abas adicionais, cada uma com novas descobertas a serem feitas e experiências a serem vivenciadas.
 
